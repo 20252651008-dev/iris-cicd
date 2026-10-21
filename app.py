@@ -7,7 +7,7 @@ names = ["setosa", "versicolor", "virginica"]
 
 @app.route("/")
 def home():
-    return "Iris ML API - version 1"
+    return "Iris ML API - version 2"
 
 @app.route("/predict")
 def predict():
